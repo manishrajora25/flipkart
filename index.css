@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  }
+  .mini {
+    position: sticky;
+    top: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  .header {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .header nav {
+    width: 35%;
+  }
+  .header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header nav ul a {
+    color: #000;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 40px;
+    margin-right: 2rem;
+  }
+  .logo img {
+    height: 100%;
+    width: 100%;
+  }
+  .this {
+    position: relative;
+    width: 40%;
+    margin-right: 2rem;
+  }
+  .this i {
+    position: absolute;
+    top: 33%;
+    left: 2%;
+  }
+  .this input {
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 17px;
+    background-color: rgb(235, 235, 243);
+    padding: 0px 50px 0px 40px;
+  }
+  .login ul a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  .for ul a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  
+  .login {
+    display: flex;
+  }
+  .for li {
+    margin-left: 70px;
+  }
+  .for ul {
+    display: flex;
+  }
+  .Search {
+    position: absolute;
+    left: 317px;
+    top: 8px;
+    font-size: 18px;
+  }
+  .profile {
+    position: absolute;
+    left: 825px;
+    top: 8px;
+    font-size: 18px;
+  }
+  .core {
+    position: absolute;
+    left: 988px;
+    top: 8px;
+    font-size: 18px;
+  }
+  .donot {
+    position: absolute;
+    left: 1090px;
+    top: 8px;
+    font-size: 18px;
+  }
+  .testcolor {
+    margin-top: 10px;
+    width: 100%;
+    height: 6200px;
+    background-color: rgb(228, 236, 245);
+    position: relative;
+  }
+  .mobils {
+    width: 98% !important;
+    height: 120px;
+    margin: 15px 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .grocery a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .photo {
+    width: 100%;
+    height: 220px;
+  }
+  .photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .BestofElectronics {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    height: 370px;
+  }
+  .BestofElectronics h3 {
+    margin: 10px 0px 20px 30px;
+  }
+  .bestof {
+    margin: auto;
+    border: 1px solid rgb(189, 186, 186);
+    padding: 10px 8px 80px 8px;
+    height: 280px;
+    width: 200px;
+  }
+  .bestof p {
+    font-size: 15px;
+  }
+  .bestof img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .akasaflight {
+    height: 270px;
+    width: 200px;
+  }
+  .akasaflight img {
+    width: 100%;
+    height: 100%;
+  }
+  .elctronics {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .four {
+    text-align: center;
+  }
+  
+  .Homekitchen {
+    width: 425px;
+    height: 600px;
+    /* margin-top: 0px; */
+    background-color: white;
+  }
+  .Homekitchen h3 {
+    margin: 20px;
+  }
+  
+  .Kichanspplication {
+    height: 250px;
+    width: 170px;
+    border: 1px solid rgb(197, 193, 193);
+    padding: 10px 8px 60px 8px;
+  }
+  .Kichanspplication img {
+    width: 100%;
+    height: 100%;
+  }
+  .Kichanspplication h4 {
+    /* font-size: 13px; */
+    color: green;
+  }
+  .homemore {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .seealldeles {
+    margin: 30px 14px;
+    text-decoration: none;
+  }
+  
+  .homeimprovment {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .Homekitchenmore {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .fashionfeels {
+    width: 425px;
+    height: 600px;
+  }
+  .fashionfeels img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer {
+    background-color: rgb(2, 2, 20);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
+  }
+  
+  /* Footer Top Section */
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .footer-links {
+    width: 30%;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #0066c0;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 12px;
+  }
+  
+  .footer-bottom p {
+    color: white;
+  }
+  
+  .footer-social a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .footer-social a:hover {
+    color: #0066c0;
+  }
+  
+  /* Responsive Design */
+  /* @media screen and (max-width: 768px) {
+     .footer-top {
+         flex-direction: column;
+         align-items: center;
+     }
+  
+     .footer-links {
+         width: 100%;
+         margin-bottom: 20px;
+     }
+  
+     .footer-bottom {
+         flex-direction: column;
+         text-align: center;
+     }
+  
+     .footer-social {
+         margin-top: 10px;
+     }
+  } */
